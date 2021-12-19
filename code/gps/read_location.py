@@ -1,3 +1,11 @@
+"""
+READ_LOCATION
+
+Funciones relacionadas a encontrar datos de una ubicación especifica. 
+
+@author: ecastaneda
+"""
+
 import certifi
 import ssl
 import geopy.geocoders
