@@ -13,7 +13,8 @@ def get_coordinates() -> tuple:
         tuple: latitud, longitud.
     """
     # TODO: read coordinates from sensor to replace dummy coordinates
-    latitude, logitude = dummy_coordinates()
+    latitude, longitude = dummy_coordinates()
+    return latitude, longitude  
 
 
 def dummy_coordinates() -> tuple:
